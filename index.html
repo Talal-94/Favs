@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Favorites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header >
+        <nav class="navbar navbar-light d-flex justify-content-between container-fluid">
+          <img src="/logo.png" alt="">
+          <a href="#">
+              <i class="fa-solid fa-heart"></i>
+              <span id="favorites-count">0</span>
+          </a>
+        </nav>
+    </header>
+
+    <h2>Products</h2> 
+    <div class="container">
+        <ul id="items-list">
+            
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2>Favorites</h2>
+    <ul id="favorites-list">
+
+    </ul>
+
+    <!-- <p>Favorites count: <span id="favorites-count">0</span></p> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
